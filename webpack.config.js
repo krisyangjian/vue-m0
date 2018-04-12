@@ -5,18 +5,13 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-    // vendor: 'vue',
     app: './src/main.js'
   },
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: '[name].js',
     chunkFilename: '[name].js'
-    // publicPath: '/vue-test/dist'
   },
-  // externals: {
-  //   vue: 'vue'
-  // },
   module: {
     rules: [
       {

@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import m0A from './m0.a';
+import m0A from './m0.a.vue';
 
 Vue.use(Router);
 
